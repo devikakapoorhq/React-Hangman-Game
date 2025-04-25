@@ -19,22 +19,6 @@ Vite (for lightning-fast development and builds)
 CSS Modules (for scoped and maintainable styles)
 
 ESLint and Prettier (for clean, formatted code)
-# Project Structure
-/
-├── public/             # Static assets (SVGs, etc.)
-├── src/
-│   ├── assets/         # App assets
-│   ├── components/     # Core React components
-│   │   ├── HangManDrawing/
-│   │   ├── HangManWord/
-│   │   └── Keyboard/
-│   ├── words/          # Word list for the game
-│   ├── App.tsx         # Main application component
-│   ├── main.tsx        # React app bootstrap
-│   └── index.css       # Global styles
-├── index.html          # Root HTML file
-├── package.json        # Project configuration and dependencies
-└── vite.config.ts      # Vite build config
 
 # How It Works
 The app randomly selects a word from a pre-defined list.
@@ -64,15 +48,10 @@ Creating an engaging, interactive user experience
 
 # Preview
 Coming Soon: Deployed version link or screenshots.
+![image](https://github.com/user-attachments/assets/9dd50369-d093-480e-bd1f-6aa33ed675c6)
+![image](https://github.com/user-attachments/assets/ac0794f4-649d-465e-8baa-1240d89e2ffc)
 
-# Installation & Running Locally
-bash
-Copy code
-git clone https://github.com/devikakapoorhq/React-Hangman-Game.git
-cd React-Hangman-Game
-npm install
-npm run dev
-Visit http://localhost:5173 to play!
+
 
 📬 Connect With Me
 Feel free to connect if you'd like to collaborate or talk tech!
